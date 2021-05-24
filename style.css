@@ -116,6 +116,7 @@ h2 {
 ul {
   font-size: 2rem;
   display: inline-block;
+  vertical-align: 6rem;
 }
 
 li {
@@ -128,7 +129,8 @@ img {
 }
 
 .caracteristici {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  list-style-type: none;
 }
 
 .nav-buttons {
