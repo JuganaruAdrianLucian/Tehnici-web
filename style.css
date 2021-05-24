@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: moccasin;
+  padding-top: 12rem;
+}
+
+.site-title {
+  text-decoration: none;
+  color: rgb(255, 128, 36);
+  font-size: 4rem;
+  vertical-align: 1.7rem;
+  margin-left: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: dimgrey;
+  font-size: 2rem;
+  padding: 0rem 5rem;
+}
+
+.account-input {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: 5rem;
+  border-style: solid;
+  border-color: rgb(255, 128, 36);
+  background: white;
+  font-size: 2.5rem;
+}
+
+.white-box {
+  background: white;
+  width: 63%;
+  margin: 4rem auto;
+}
+
+#logo {
+  width: 7rem;
+  height: 7rem;
+  display: inline-block;
+}
+
+#search-bar {
+  vertical-align: 2.4rem;
+  margin-left: 3rem;
+  border-radius: 5rem;
+  border-style: solid;
+  border-color: rgb(255, 128, 36);
+  background: white;
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin-right: 7rem;
+  width: 55rem;
+}
+
+#error-message {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#error-title {
+  margin-top: 20rem;
+}
+
+#wrong-credentials-message {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+  display: none;
+}
+
+#saved-credentials-message {
+  color: green;
+  font-size: 2rem;
+  text-align: center;
+  display: none;
+}
+
+h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 65rem;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  color: rgb(255, 128, 36);
+  font-size: 5rem;
+}
+
+ul {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+img {
+  width: 50rem;
+  height: 50rem;
+}
+
+.caracteristici {
+  font-size: 4rem;
+}
+
+.nav-buttons {
+  text-decoration: none;
+  color: coral;
+  font-size: 2.5rem;
+  display: inline-block;
+  vertical-align: 2.4rem;
+  margin-left: 3rem;
+}
+
+header {
+  padding: 2rem 5rem;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background: rgb(240, 186, 140);
+}
+
+nav {
+  display: inline;
+}
+
+button {
+  margin: 5rem auto;
+  padding: 2rem 2rem;
+  border-radius: 5rem;
+  font-size: 2rem;
+  background: rgb(255, 128, 36);
+  border-color: rgb(163, 81, 22);
+  color: white;
+  border-style: solid;
+  border-width: 0.5rem;
+  display: block;
+}
+
+button:hover {
+  background: rgb(209, 105, 30);
+  cursor: pointer;
+}
+
+.site-title:hover {
+  color: rgb(163, 81, 22);
+  cursor: pointer;
+}
+
+.nav-buttons:hover {
+  color: rgb(163, 81, 22);
+  cursor: pointer;
+}

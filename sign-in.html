@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Magazinul tau de jucarii!" />
+    <meta name="robots" content="index,follow" />
+    <title>Pitici cu Sclipici | Logare</title>
+    <link rel="icon" href="/images/22259bearface_98743.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="/images/22259bearface_98743.ico" alt="Site logo" id="logo" />
+      <a href="/index.html" class="site-title">Pitici cu Sclipici</a>
+      <nav>
+        <a href="#" class="nav-buttons">Coșul meu</a>
+        <a href="/sign-in.html" class="nav-buttons">Contul meu</a>
+      </nav>
+    </header>
+    <h2>Logare</h2>
+    <form id="sign-in-form">
+      <input required placeholder="Email" type="email" class="account-input" />
+      <input
+        required
+        placeholder="Parolă"
+        minlength="6"
+        type="password"
+        class="account-input"
+      />
+      <p id="wrong-credentials-message">Emailul sau parola sunt greșite</p>
+      <button type="submit" onclick="verifyInfo()">Intrați în cont</button>
+    </form>
+    <footer>
+      <a href="/sign-up.html" class="link">Nu ai cont? Apasă aici</a>
+    </footer>
+  </body>
+</html>
